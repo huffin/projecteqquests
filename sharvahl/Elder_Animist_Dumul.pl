@@ -15,7 +15,14 @@ sub EVENT_SAY {
     quest::say("Here you go.  Keep this one safe.");
     quest::summonitem(9031);
   }
-
+  if ($text=~/lost the seal/i && $bstepic >=1) {
+  quest::say("Here you go.  Keep this one safe.");
+  quest::summonitem(9031);
+  }
+  if ($text=~/lost my seal/i && $bstepic >=1) {
+  quest::say("Here you go.  Keep this one safe.");
+  quest::summonitem(9031);
+  }
 }
 
 sub EVENT_ITEM {
