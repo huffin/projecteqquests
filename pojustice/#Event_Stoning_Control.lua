@@ -100,11 +100,11 @@ function spawn_mobs(wave)
 			local spawn_at = eq.ChooseRandom( 1, 2, 3 );
 
 			if (spawn_at == 1) then
-				npc = eq.spawn2( eq.ChooseRandom( 201495, 201496, 201497, 201499 ), 52, 0, -130, -1233, 73, 0);
+				npc = eq.spawn2( eq.ChooseRandom( 201495, 201496, 201497, 201499, 201495, 201496, 201495, 201496 ), 52, 0, -130, -1233, 73, 0);
 			elseif (spawn_at == 2) then
-				npc = eq.spawn2( eq.ChooseRandom( 201495, 201496, 201497, 201499 ), 53, 0, -241, -1120, 73, 128);
+				npc = eq.spawn2( eq.ChooseRandom( 201495, 201496, 201497, 201499, 201495, 201496, 201495, 201496 ), 53, 0, -241, -1120, 73, 128);
 			elseif (spawn_at == 3) then
-				npc = eq.spawn2( eq.ChooseRandom( 201495, 201496, 201497, 201499 ), 54, 0, -21,  -1121, 73, 380);
+				npc = eq.spawn2( eq.ChooseRandom( 201495, 201496, 201497, 201499, 201495, 201496, 201495, 201496 ), 54, 0, -21,  -1121, 73, 380);
 			end
 			if (npc.valid) then 
 				wave_ids[index + i] = npc:GetID();
