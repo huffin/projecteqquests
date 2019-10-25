@@ -150,7 +150,7 @@ sub EVENT_ITEM
 		}
 		#Legs
 		elsif(plugin::check_handin(\%itemcount, 51442 => 1, 51449 => 3)) {#Dragorn City Ember, 3x Dranik Incense Burner
-			quest::say("Hmm, I shudder to think what names I will find scribed on this rock, but I thank you for your work none the less. Hopefully, this list can be used to stir some more dissention among the dragorn that have sworn loyalty to Mata Muram for the time being. Here are the plate boots I have promised. May they serve you well, $name.");
+			quest::say("So, the embers do exist! Excellent work, $name. I plan to hold this ember in the forge when crafting in the future. This will ensure that the ember's heat is used to forge armor for the enemies of the Muramites. Poetic justice, don't you think? For your efforts, here are the greaves as promised!");
 			if ($class eq "Warrior") {
 				quest::summonitem(70747);#Armsmaster's Leggings
 			}
@@ -170,7 +170,7 @@ sub EVENT_ITEM
 		}
 		#Feet
 		elsif(plugin::check_handin(\%itemcount, 51443 => 1, 51450 => 2)) {#Kuuan Traitor Stone, 2x Kyv Bowstring
-			quest::say("So, the embers do exist! Excellent work, $name. I plan to hold this ember in the forge when crafting in the future. This will ensure that the ember's heat is used to forge armor for the enemies of the Muramites. Poetic justice, don't you think? For your efforts, here are the greaves as promised!");
+			quest::say("Hmm, I shudder to think what names I will find scribed on this rock, but I thank you for your work none the less. Hopefully, this list can be used to stir some more dissention among the dragorn that have sworn loyalty to Mata Muram for the time being. Here are the plate boots I have promised. May they serve you well, $name.");
 			if ($class eq "Warrior") {
 				quest::summonitem(70745);#Armsmaster's Boots
 			}
