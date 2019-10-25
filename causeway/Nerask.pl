@@ -56,7 +56,7 @@ sub EVENT_SAY
 		}
 	else
 		{
-		quest::emote("does not respond to you."); #made up text
+		quest::emote("hisses as you approach but does not attack.");
 		}
 		}
 
