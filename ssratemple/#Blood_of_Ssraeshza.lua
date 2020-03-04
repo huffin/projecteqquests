@@ -1,3 +1,8 @@
+function event_spawn(e)
+eq.spawn_condition("ssratemple",0,1,0);
+end
+
+
 function event_combat(e)
 if (e.joined == true) then
 eq.spawn_condition("ssratemple",0,1,1);
